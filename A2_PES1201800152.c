@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include"assignment_2.h"
 #include<math.h>
-
+// use -l flag for execution 
 
 struct node     // Node of the list.
 {
