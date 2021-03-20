@@ -175,17 +175,6 @@ void find_second_greatest(int *numbers, int length)
             cascade(myList,1,n,result);
         }
     }
-   /* for(int i=1;i<n-1;i++)                        // Used while testing the code .
-    {
-        if(0==isNull(&myList[i]))
-        {
-            List * result = &myList[i];
-            myList[i].head = NULL;
-            cascade(myList,i,n,result);
-        }
-        break;
-    }*/
-
     int x = 0;                                          // flush the array of pointers to know 
     int i =0;                                           // the answer and also make sure  nothing is left out 
     for(i=1;i<n-1;i++)
